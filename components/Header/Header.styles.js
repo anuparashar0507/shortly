@@ -1,32 +1,33 @@
 import styled from "styled-components";
-import { FaMagento } from "react-icons/fa";
 import Link from "next/link";
 import { Container } from "../../styles/global";
-import { color } from "styled-system";
-// import Image from "next/image";
+
+export const Nav = styled.nav`
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+`;
+
+export const NavbarContainer = styled(Container)`
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  ${Container}
+  @media screen and (max-width: 960px) {
+    margin: 10px 0 10px 0;
+  }
+`;
 
 export const Logo = styled.div`
   display: flex;
   justify-self: flex-start;
   align-items: center;
   cursor: pointer;
+  margin-left: 20px;
   @media screen and (max-width: 960px) {
     /* width: 20%; */
-  }
-`;
-
-export const NavItem = styled.li`
-  margin: 0 20px 0 20px;
-  font-size: 16px;
-  color: #bfbfbf;
-  &:hover {
-    color: #2acfcf;
-  }
-  @media screen and (max-width: 960px) {
-    width: 100%;
-    &:hover {
-      border: none;
-    }
   }
 `;
 
@@ -63,24 +64,6 @@ export const SignUpButton = styled.button`
   @media screen and (max-width: 960px) {
     font-weight: 500;
     width: 80%;
-  }
-`;
-
-export const Nav = styled.nav`
-  width: 100%;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  padding: 50px;
-  justify-content: space-around;
-`;
-
-export const NavbarContainer = styled(Container)`
-  display: flex;
-  justify-content: space-between;
-  height: 30px;
-  ${Container}
-  @media screen and (max-width: 960px) {
   }
 `;
 
@@ -127,8 +110,8 @@ export const NavItemBtn = styled.li`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 100%; */
-    padding: 8px 16px;
+    width: 100%;
+    margin-bottom: 16px;
     height: 100%;
     width: 100%;
   }
@@ -141,7 +124,7 @@ export const NavLinks = styled.div`
   height: 100%;
   @media screen and (max-width: 960px) {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     font-weight: 500;
     display: flex;
@@ -149,6 +132,21 @@ export const NavLinks = styled.div`
     &:hover {
       color: #4b59f7;
       transition: all 0.3s ease;
+    }
+  }
+`;
+export const NavItem = styled.li`
+  margin: 0 30px 0 30px;
+  font-size: 16px;
+  color: #bfbfbf;
+  &:hover {
+    color: #2acfcf;
+  }
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin-top: 10px;
+    &:hover {
+      border: none;
     }
   }
 `;

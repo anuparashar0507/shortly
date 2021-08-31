@@ -1,15 +1,9 @@
-import React, { useState, useRef } from "react";
-import { Button, CardContainer } from "./Card.styles";
-
+import React, { useState } from "react";
+import { Button, CardContainer, Url, ShortenedUrl } from "./Card.styles";
 const Card = (props) => {
   const [copySuccess, setCopySuccess] = useState("Copy");
-  //   const pRef = useRef(null);
 
   function copyToClipboard(e) {
-    // pRef.current.select();
-    // document.execCommand("copy");
-    // This is just personal preference.
-    // I prefer to not show the whole text area selected.
     navigator.clipboard.writeText(props.shortUrl);
     e.target.focus();
     setCopySuccess("Copied!");
@@ -17,10 +11,13 @@ const Card = (props) => {
 
   return (
     <CardContainer bg="white">
-      <p>{props.url}</p>
-      <p color="Cyan" value={props.shortUrl}>
-        {props.shortUrl}
-      </p>
+      <Url>
+        {" "}
+        <p>{props.url}</p>
+      </Url>
+      <ShortenedUrl color="Cyan">
+        <p value={props.shortUrl}>{props.shortUrl}</p>
+      </ShortenedUrl>
       <Button bg="Cyan" color="white" onClick={copyToClipboard}>
         {copySuccess}
       </Button>

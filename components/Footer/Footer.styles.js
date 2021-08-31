@@ -10,6 +10,8 @@ export const FooterArea = styled.div`
   padding: 60px;
   @media screen and (max-width: 960px) {
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     height: max-content;
   }
 `;
@@ -21,6 +23,7 @@ export const Logo = styled.div`
   @media screen and (max-width: 960px) {
     width: 100%;
     justify-content: center;
+    margin: 10px;
   }
 `;
 
@@ -31,6 +34,7 @@ export const NavContainer = styled.div`
     font-size: 18px;
     @media screen and (max-width: 960px) {
       text-align: center;
+      margin: 10px 0 10px 0;
     }
   }
   ul {
@@ -48,6 +52,7 @@ export const NavContainer = styled.div`
       width: 100%;
       flex-direction: column;
       align-items: center;
+      margin: 10px 0 10px 0;
       justify-content: space-between;
       h3 {
         text-align: center;
@@ -55,8 +60,10 @@ export const NavContainer = styled.div`
       ul {
         display: flex;
         flex-direction: column;
+        margin: 10px;
         justify-content: space-between;
         li {
+          margin: 10px;
         }
       }
     }
@@ -69,6 +76,7 @@ export const Social = styled.div`
   width: 20%;
   @media screen and (max-width: 960px) {
     width: 100%;
+    margin-top: 20px;
     justify-content: space-between;
   }
 `;

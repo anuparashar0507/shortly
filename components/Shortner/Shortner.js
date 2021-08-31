@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-// import styles from "../styles/Shortner.module.css";
 import Card from "../Card/Card";
 import { InputContainer, InputField, Button } from "./Shortner.styles";
-// import { Button } from "../../styles/global";
 const Shortner = () => {
   const [url, setUrl] = useState("");
   const [list, setList] = useState([]);

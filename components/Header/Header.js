@@ -48,7 +48,11 @@ const Header = () => {
     <Nav>
       <NavbarContainer>
         <Logo>
-          <Image src={logo} width="72px" height="20px" alt="logo" />
+          {/* {window.innerWidth <= 960 ? (
+            <Image src={logo} width="88px" height="24px" alt="logo" />
+          // ) : ( */}
+          <Image src={logo} width="76px" height="21px" alt="logo" />
+          {/* // )} */}
         </Logo>
         <MobileIcon onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
