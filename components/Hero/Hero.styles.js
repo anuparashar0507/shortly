@@ -23,6 +23,7 @@ export const Contents = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 10px;
   }
 `;
 
@@ -33,7 +34,7 @@ export const Title = styled.h1`
   @media screen and (max-width: 960px) {
     text-align: center;
     font-size: 48px;
-    line-height: 60px;
+    line-height: 50px;
   }
 `;
 export const SubTitle = styled.h1`
@@ -43,7 +44,7 @@ export const SubTitle = styled.h1`
   @media screen and (max-width: 960px) {
     text-align: center;
     font-size: 16px;
-    line-height: 40px;
+    line-height: 30px;
   }
 `;
 

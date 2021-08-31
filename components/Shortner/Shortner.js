@@ -8,8 +8,8 @@ const Shortner = () => {
   const [list, setList] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const submitUrl = async () => {
-    setLoading(true);
     if (url) {
+      setLoading(true);
       const res = await fetch("https://api.shrtco.de/v2/shorten?url=" + url);
       const data = await res.json();
       if (!data) {
