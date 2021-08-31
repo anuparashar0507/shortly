@@ -53,7 +53,8 @@ export const Button = styled.button`
   height: 50px;
   margin-top: 20px;
   font-size: 16px;
-  padding: 0 10px;
+  cursor: pointer;
+  /* padding: 0 10px; */
   font-family: poppins;
   border: none;
   border-radius: 30px;
@@ -61,12 +62,6 @@ export const Button = styled.button`
     background-color: #9be3e2;
   }
   @media screen and (max-width: 960px) {
-    display: flex;
-    flex-direction: column-reverse;
-    padding: 10px;
-    align-items: center;
-    &:hover {
-      background-color: #9be3e2;
-    }
+    width: 60%;
   }
 `;

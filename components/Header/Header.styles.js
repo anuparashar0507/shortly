@@ -39,9 +39,10 @@ export const LoginButton = styled.button`
   font-size: 16px;
   font-family: poppins;
   border: none;
+  cursor: pointer;
   border-radius: 30px;
   &:hover {
-    background-color: #bfbfbf;
+    color: #2acfcf;
   }
   @media screen and (max-width: 960px) {
     background-color: #3b3054;
@@ -54,6 +55,7 @@ export const SignUpButton = styled.button`
   background-color: #2acfcf;
   color: white;
   width: 106px;
+  cursor: pointer;
   height: 42px;
   font-size: 16px;
   font-family: poppins;
@@ -140,6 +142,7 @@ export const NavItem = styled.li`
   margin: 0 30px 0 30px;
   font-size: 16px;
   color: #bfbfbf;
+  cursor: pointer;
   &:hover {
     color: #2acfcf;
   }

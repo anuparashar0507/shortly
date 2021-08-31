@@ -43,6 +43,7 @@ export const NavContainer = styled.div`
     font-size: 16px;
     ${color}
     li {
+      cursor: pointer;
       &:hover {
         color: #2acfcf;
       }
@@ -74,6 +75,7 @@ export const Social = styled.div`
   justify-content: space-evenly;
   align-items: center;
   width: 20%;
+  cursor: pointer;
   @media screen and (max-width: 960px) {
     width: 100%;
     margin-top: 20px;

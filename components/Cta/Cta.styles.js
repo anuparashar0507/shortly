@@ -1,11 +1,8 @@
 import styled from "styled-components";
 import { color } from "styled-system";
-// import bgImage from "../assets/images/bg-shorten-desktop.svg";
+import bgImage from "../../assets/images/bg-shorten-desktop.svg";
 export const CtaContainer = styled.div`
   width: 100%;
-  /* height: 400px; */
-  /* background-image: url(${bgImage});
-  background-repeat: no-repeat, no-repeat; */
   ${color}
   padding: 20px;
   display: flex;
@@ -36,6 +33,7 @@ export const Button = styled.button`
   width: 200px;
   height: 50px;
   font-size: 16px;
+  cursor: pointer;
   font-family: poppins;
   ${color}
   border: none;

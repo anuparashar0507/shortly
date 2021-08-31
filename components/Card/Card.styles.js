@@ -32,6 +32,7 @@ export const Button = styled.button`
   ${color}
   border: none;
   border-radius: 5px;
+  cursor: pointer;
   &:focus {
     background-color: #3b3054;
   }
