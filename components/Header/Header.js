@@ -1,10 +1,7 @@
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { color } from "styled-system";
 import logo from "../../assets/images/logo.svg";
-import { IconContext } from "react-icons/lib";
-// import { Button } from "../../styles/global";
 import {
   Nav,
   NavbarContainer,
@@ -44,15 +41,10 @@ const Header = () => {
   }
 
   return (
-    // <IconContext.Provider value={{ color: "#000" }}>
     <Nav>
       <NavbarContainer>
         <Logo>
-          {/* {window.innerWidth <= 960 ? (
-            <Image src={logo} width="88px" height="24px" alt="logo" />
-          // ) : ( */}
           <Image src={logo} width="76px" height="21px" alt="logo" />
-          {/* // )} */}
         </Logo>
         <MobileIcon onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars />}
@@ -79,7 +71,6 @@ const Header = () => {
         </NavMenu>
       </NavbarContainer>
     </Nav>
-    // </IconContext.Provider>
   );
 };
 
