@@ -51,6 +51,7 @@ export const Button = styled.button`
   ${color}
   width: 200px;
   height: 50px;
+  margin-top: 20px;
   font-size: 16px;
   padding: 0 10px;
   font-family: poppins;

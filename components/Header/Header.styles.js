@@ -52,6 +52,7 @@ export const LoginButton = styled.button`
 `;
 export const SignUpButton = styled.button`
   background-color: #2acfcf;
+  color: white;
   width: 106px;
   height: 42px;
   font-size: 16px;

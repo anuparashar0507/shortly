@@ -18,8 +18,8 @@ const CardContainer = () => {
         <TextContainer>
           <h2>Advance Statistics</h2>
           <p>
-            You might have mismatching versions of React and the renderer (such
-            as React DOM)
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </TextContainer>
         <Cards>
@@ -29,8 +29,8 @@ const CardContainer = () => {
             </Img>
             <h6>Brand Recorgnition</h6>
             <p>
-              You might have mismatching versions of React and the renderer
-              (such as React DOM)
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </Card>
           <Card mt="30px">
@@ -40,8 +40,8 @@ const CardContainer = () => {
             </Img>
             <h6>Detailed reports</h6>
             <p>
-              You might have mismatching versions of React and the renderer
-              (such as React DOM)
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </Card>
           <Card mt="60px">
@@ -51,8 +51,8 @@ const CardContainer = () => {
             </Img>
             <h6>Fully customisable</h6>
             <p>
-              You might have mismatching versions of React and the renderer
-              (such as React DOM)
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </Card>
         </Cards>
