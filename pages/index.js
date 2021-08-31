@@ -1,10 +1,10 @@
 // import Head from "next/head";
 // import Image from "next/image";
-import CardContainer from "../components/CardContainer";
-import Cta from "../components/Cta";
-import { Footer } from "../components/Footer";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
+import CardContainer from "../components/CardContainer/CardContainer";
+import Cta from "../components/Cta/Cta";
+import { Footer } from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import Hero from "../components/Hero/Hero";
 import styled from "styled-components";
 
 const Container = styled.div`
@@ -16,7 +16,6 @@ const Container = styled.div`
   align-items: center;
 `;
 function Home() {
-  // console.log(results);
   return (
     <Container>
       <Header />

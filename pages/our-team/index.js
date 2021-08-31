@@ -1,6 +1,6 @@
-import Cta from "../../components/Cta";
-import { Footer } from "../../components/Footer";
-import Header from "../../components/Header";
+import Cta from "../../components/Cta/Cta";
+import { Footer } from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 import styled from "styled-components";
 
 const Container = styled.div`
