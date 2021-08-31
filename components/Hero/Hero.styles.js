@@ -5,7 +5,7 @@ export const HeroContainer = styled.div`
   width: 100%;
   height: 600px;
   display: flex;
-  padding: 0 0 0 100px;
+  padding-left: 100px;
   justify-content: space-between;
   align-items: center;
   @media screen and (max-width: 960px) {
@@ -31,6 +31,7 @@ export const Title = styled.h1`
   font-weight: 700;
   font-size: 72px;
   line-height: 90px;
+  margin-bottom: 10px;
   @media screen and (max-width: 960px) {
     text-align: center;
     font-size: 48px;
@@ -40,6 +41,7 @@ export const Title = styled.h1`
 export const SubTitle = styled.h1`
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 10px;
   color: #bfbfbf;
   @media screen and (max-width: 960px) {
     text-align: center;

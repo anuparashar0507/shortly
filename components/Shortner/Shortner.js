@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Card from "../Card/Card";
 import Image from "next/image";
 import Load from "../../assets/loader.gif";
-import { InputContainer, InputField, Button } from "./Shortner.styles";
+import { InputContainer, InputField, Button, Label } from "./Shortner.styles";
 const Shortner = () => {
   const [url, setUrl] = useState("");
+  const [error, setError] = useState("");
   const [list, setList] = useState([]);
   const [isLoading, setLoading] = useState(false);
   const submitUrl = async () => {
@@ -26,9 +27,11 @@ const Shortner = () => {
         setLoading(false);
       } else {
         alert(data.error);
+        setError(data.error);
       }
     } else {
       alert("Enter Url ");
+      setError("Enter Url");
     }
   };
 

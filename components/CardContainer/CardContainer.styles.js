@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const Cards = styled.div`
   width: 80%;
   display: flex;
-  margin: 40px 0 40px 0;
+  margin-top: 80px;
   justify-content: space-between;
   @media screen and (max-width: 960px) {
     width: 100%;
@@ -49,6 +49,7 @@ export const Card = styled.div`
   @media screen and (max-width: 960px) {
     width: 100%;
     display: flex;
+    margin: 40px 0 20px 0;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -68,6 +69,7 @@ export const TextContainer = styled.div`
   h2 {
     font-weight: 500;
     font-size: 32px;
+    margin-bottom: 20px;
   }
   p {
     font-size: 16px;

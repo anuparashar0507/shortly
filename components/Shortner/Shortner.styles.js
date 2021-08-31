@@ -34,6 +34,11 @@ export const InputField = styled.input`
     text-align: center;
   }
 `;
+
+export const Label = styled.label`
+  color: red;
+  font-size: 8px;
+`;
 export const Button = styled.button`
   background-color: #2acfcf;
   width: 106px;
