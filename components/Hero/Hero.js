@@ -13,10 +13,12 @@ const Hero = () => {
       <Contents bg="Cyan" color="white">
         <Title>More than just shorter links</Title>
         <SubTitle>
-          You might have mismatching versions of React and the renderer (such as
-          React DOM)
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </SubTitle>
-        <Button bg="Cyan">Get Started</Button>
+        <Button bg="Cyan" color="white">
+          Get Started
+        </Button>
       </Contents>
       <Image src={heroImg} width={964} height={643} alt="hero image" />
     </HeroContainer>
