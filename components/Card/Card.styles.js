@@ -46,6 +46,15 @@ export const Button = styled.button`
 export const Url = styled.div`
   p {
     font-size: 16px;
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 10px;
+    display: -webkit-box;
+    line-height: 18px; /* fallback */
+    max-height: 32px; /* fallback */
+    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-box-orient: vertical;
     font-family: poppins;
     @media screen and (max-width: 960px) {
       width: 100%;
@@ -53,11 +62,6 @@ export const Url = styled.div`
       border-bottom: 1px solid #bfbfbf;
       margin: 0 0 10px 0;
       padding: 10px;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      display: -webkit-box;
-      -webkit-line-clamp: 2; /* number of lines to show */
-      -webkit-box-orient: vertical;
     }
   }
 `;
@@ -66,6 +70,7 @@ export const ShortenedUrl = styled.div`
     font-size: 16px;
     font-family: poppins;
     ${color}
+    margin-right: 10px;
     @media screen and (max-width: 960px) {
       width: 100%;
       text-align: start;
