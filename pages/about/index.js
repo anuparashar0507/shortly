@@ -11,7 +11,7 @@ const Container = styled.div`
   justify-content: center;
   align-items: center;
 `;
-function Pricing() {
+function About() {
   return (
     <Container>
       <Header />
@@ -22,4 +22,4 @@ function Pricing() {
   );
 }
 
-export default Pricing;
+export default About;

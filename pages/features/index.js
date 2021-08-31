@@ -1,21 +1,25 @@
-// import Head from "next/head";
-// import Image from "next/image";
-// import styles from "../styles/Home.module.css";
-// import CardContainer from "../components/CardContainer";
 import Cta from "../../components/Cta";
 import { Footer } from "../../components/Footer";
 import Header from "../../components/Header";
-// import Hero from "../../components/Hero";
-// import Shortner from "../../components/Shortner";
-export default function Home() {
+import styled from "styled-components";
+
+const Container = styled.div`
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+function Features() {
   return (
-    <div>
+    <Container>
       <Header />
-      {/* <Hero /> */}
-      {/* <Shortner /> */}
-      {/* <CardContainer /> */}
+
       <Cta />
       <Footer />
-    </div>
+    </Container>
   );
 }
+
+export default Features;

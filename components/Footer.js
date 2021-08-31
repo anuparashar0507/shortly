@@ -54,13 +54,16 @@ export const Footer = () => {
         <h3>Features</h3>
         <ul>
           <li>
-            <Link href="/features">Features</Link>
+            <Link href="/contact">Contact</Link>
           </li>
           <li>
-            <Link href="/features">Pricing</Link>
+            <Link href="/about">About</Link>
           </li>
           <li>
-            <Link href="/features">Resources</Link>
+            <Link href="/career">Career</Link>
+          </li>
+          <li>
+            <Link href="/our-team">Our Team</Link>
           </li>
         </ul>
       </NavContainer>
